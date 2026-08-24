@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Sensitive Tax & Financial Data (CRITICAL: Do NOT commit personal tax/broker statements)
+*.pdf
+*.xlsx
+*.xls
+data/
+input/
+output/
+personal/
+*.pfx
+*.p12
+
+# Output files
+*_filled.csv
+*_reconciliation.md
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
