@@ -1,0 +1,3 @@
+# Global code owners for repository
+# Every pull request touching any file will require a review from @karthikeyan-s
+* @karthikeyan-s
