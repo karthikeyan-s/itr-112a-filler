@@ -5,6 +5,8 @@
 
 An AI Agent Skill and Python toolkit for parsing capital gains statements (CAMS, KFintech, Demat/Depository, Broker reports) and generating the filled **Schedule 112A CSV** for India's Income Tax Return (ITR-2 / ITR-3).
 
+> **Applicability**: Built and verified for **AY 2026-27 (FY 2025-26)** Income Tax Return offline utility template and calculation rules.
+
 ---
 
 ## 📌 Overview
@@ -94,6 +96,15 @@ python scripts/quarter_split.py
 
 - **Strict `.gitignore`**: All personal financial files (`*.xlsx`, `*.xls`, `*.pdf`, `*.csv`) are excluded by default so you never risk committing confidential taxpayer information.
 - Always inspect output CSV files before uploading to the Income Tax Portal.
+
+---
+
+## ⚠️ Disclaimer
+
+- This toolkit and AI skill are assistive utilities for data aggregation, grandfathering computation, and CSV formatting based on the **AY 2026-27 (FY 2025-26)** rules.
+- It does **not** constitute formal financial, investment, or tax advice.
+- Income tax rules, section interpretations, and offline utility schemas are subject to amendments by the Income Tax Department of India.
+- **Always verify** generated output against your original capital gains statements, AIS/TIS records, and consult a qualified Chartered Accountant (CA) or tax professional before submitting your return.
 
 ---
 
